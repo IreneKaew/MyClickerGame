@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Clicker Burger</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/bob_tete_2.png"favicon">
+    <link href="http://fonts.cdnfonts.com/css/spongebob-font-condensed" rel="stylesheet">
+    <style>
+        @import url('http://fonts.cdnfonts.com/css/spongebob-font-condensed');
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="h1-header">Clicker Burger</h1>
+    </header>
+
+    <main>
+        <div class="hit-bob">
+            <div>
+                <h1 style="display: inline;" class="hit-bob-h1" id="score-burgers"> Burgers : </h1>
+                <img style="display: inline;" src="images/burger-scores.png" class="burger-score">
+            </div>
+            <div>
+                <h1 style="display: inline;" class="hit-bob-h1" id="bps"> BPS: </h1>
+            </div>
+
+            <br><br>
+            <img class="click" onclick="addBurgers(1)">
+            
+        </div>
+
+        <div class="stages">
+            <h4 class="stages-h4">Help Spongbob grow Krabby Patty's business </h4>
+
+        <div class = "store-one">
+        <img class = "store-squidward-photo" src="images/stages-squidward.jpg">
+        </div > 
+
+        <div class="store-two">
+            <img class = "store-sandy-photo" src="images/stages-sandy.jpg">
+        </div>
+
+        <div class="store-three">
+            <img class = "store-mrkrab-photo" src="images/stages-mrkrabs.png">
+        </div>
+        </div>
+
+
+
+        <div class="store">
+                <div class="objet-store">
+                    <h2 class="store-h2">Store</h2>
+                </div>
+                <div class="upgrade">
+                    <div class="title-upgrade">
+                        <h3 class="title-upgrade">Upgrade</h3>
+                    </div>
+                    <div class="blox-upgrade">
+                        <img class="img-upgrade" src="images/head-squidward.png" alt="">
+                        <div>
+                            <h3 class="store-h3-caract">Squidward</h3>
+                            <div class="store-cost">
+                                <h4 class="store-h4-cost-Squidward">20</h4>
+                                <button class="store-button-one"  onclick="buyMinion(1)">Upgrade</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blox-upgrade">
+                        <img class="img-upgrade" src="images/head-sandy.png" alt="">
+                        <div>
+                            <h3 class="store-h3-caract">Sandy</h3>
+                            <div class="store-cost">
+                                <h4 class="store-h4-cost-Sandy" >100  </h4>
+                                <button class="store-button-two" onclick="buyMinion(2)">Upgrade</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blox-upgrade">
+                        <img class="img-upgrade" src="images/head-krabs.png" alt="">
+                        <div>
+                            <h3 class="store-h3-caract">Mr.Krabs</h3>
+                            <div class="store-cost">
+                                <h4 class="store-h4-cost-MrKrabs">500</h4>
+                                <button class="store-button-three" onclick="buyMinion(3)">Upgrade</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-save-reset">
+                        <button class="reset-button" onclick="reset()">Reset</button>
+                        <button class = "save-button" onclick="save()">Save</button>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+
+</body>
+<script src="script.js"></script>
+</html>
