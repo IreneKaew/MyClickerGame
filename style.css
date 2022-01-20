@@ -1,0 +1,303 @@
+html {
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    
+}
+
+body {
+    height: 100vh;
+    margin: 0px;
+}
+
+
+main {
+    display: flex;
+}
+
+header {
+    background-color: rgb(110, 225, 208);
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.h1-header {
+    margin: 0px;   
+    color: rgb(255, 241, 41);
+    font-family: 'SpongeBob Font Condensed', sans-serif; font-family: 'SpongeBob Font Wide', sans-serif;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: url(images/background-letter.jpg);
+}
+
+.hit-bob {
+    background-image: url(images/background-sky.jpg);
+    background-size: cover;
+    width: 25%;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    
+}
+
+.hit-bob-h1 {
+    font-family: 'SpongeBob Font Condensed', sans-serif; font-family: 'SpongeBob Font Wide', sans-serif;
+    font-size: 20px;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: url(images/background-letter.jpg);
+}
+
+
+.click {
+    height: 25Opx;
+    width: 250px;
+    filter: drop-shadow(0 0 2.0rem rgb(255, 205, 6));
+    border-radius: 50%;
+    content: url("images/bob_tete_2.png");
+    cursor: pointer;
+
+}
+
+/* active : helps put an effect once you click a button, the image hidden will show up */
+.click:active {
+    content: url("images/bob-clicking.png");
+
+}
+
+.burger-score{
+    height: 50px;
+    width: 50px;
+}
+
+
+.stages {
+    background-color: rgb(123, 226, 204);
+    width: 50%;
+    height: 90.2vh;
+    text-align: center;
+    border: 8px rgb(255, 238, 0);
+    border-style: double ;
+}
+
+.stages-h4 {
+    color: rgb(255, 238, 0);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'SpongeBob Font Condensed', sans-serif; font-family: 'SpongeBob Font Wide', sans-serif;
+    background-image: url(images/background-letter.jpg);
+    height: 3vh;
+}
+
+.store-squidward-photo {
+    height: 25vh;
+    width: 95%;
+}
+
+.store-sandy-photo { 
+    height: 26.5vh;
+    width: 95%;
+}
+
+.store-mrkrab-photo {
+    height: 26.5vh;
+    width: 95%;
+}
+
+
+.store {
+    background-image: url(images/background-bob.jpg);
+    width: 26.5%;
+    height: 92vh;
+}
+
+.store-h2 {
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'SpongeBob Font Condensed', sans-serif; font-family: 'SpongeBob Font Wide', sans-serif;
+    background-image: url(images/background-letter.jpg);
+    text-align: center;
+
+}
+
+.objet-store{
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+    background-color: rgb(123, 226, 204);
+    opacity: 0.7; 
+    margin: 5px;  
+
+    /* opacity make background-color goes transparent */
+}
+
+
+.upgrade{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 67vh;
+    color:rgb(66, 238, 204);
+    font-family: 'SpongeBob Font Condensed', sans-serif; font-family: 'SpongeBob Font Wide', sans-serif;
+
+}
+
+.blox-upgrade{
+    height: 100px;
+    width: 95%;
+    display: flex;
+    margin-top: 15px;
+    border: 2px solid rgb(57, 241, 202) ;
+    
+}
+.img-upgrade{
+    height: 90px;
+    width: 90px;
+    margin-right: 20px;
+    margin-top: 3px;
+}
+
+.store-h3-caract {
+    color:rgb(123, 226, 204);
+    font-family: 'SpongeBob Font Condensed', sans-serif; font-family: 'SpongeBob Font Wide', sans-serif;
+    font-size: 15px;
+
+}
+
+.store-h4-cost {
+    color:rgb(123, 226, 204);
+    font-family: 'SpongeBob Font Condensed', sans-serif; font-family: 'SpongeBob Font Wide', sans-serif;
+    font-size: 15px;
+    margin-top: -0px;
+}
+
+.store-h4-cost-Squidward {
+    color:rgb(123, 226, 204);
+    font-family: 'SpongeBob Font Condensed', sans-serif; font-family: 'SpongeBob Font Wide', sans-serif;
+    font-size: 15px;
+    margin-top: 6px;
+
+}
+
+.store-h4-cost-Sandy {
+    color:rgb(123, 226, 204);
+    font-family: 'SpongeBob Font Condensed', sans-serif; font-family: 'SpongeBob Font Wide', sans-serif;
+    font-size: 15px;
+    margin-top: 6px;
+
+}
+
+.store-h4-cost-MrKrabs {
+    color:rgb(123, 226, 204);
+    font-family: 'SpongeBob Font Condensed', sans-serif; font-family: 'SpongeBob Font Wide', sans-serif;
+    font-size: 15px;
+    margin-top: 6px;
+
+}
+
+
+
+.store-cost{
+    display: flex;
+    /* justify-content: center; */
+
+
+}
+
+.store-button-two{
+    height: 30px;
+    border: none;
+    margin-left: 50px;
+    color: rgb(253, 233, 151);
+    font-family: 'SpongeBob Font Condensed', sans-serif; font-family: 'SpongeBob Font Wide', sans-serif;
+    border-radius: 5px;
+    background: linear-gradient(#96e5d4, #52ddd8, #1ab7c5);
+    
+}
+
+.store-button-one {
+    height: 30px;
+    border: none;
+    margin-left: 50px;
+    color: rgb(253, 233, 151);
+    font-family: 'SpongeBob Font Condensed', sans-serif; font-family: 'SpongeBob Font Wide', sans-serif;
+    border-radius: 5px;
+    background: linear-gradient(#96e5d4, #52ddd8, #1ab7c5);
+    margin-left: 65px;
+}
+
+.store-button-three {
+    height: 30px;
+    border: none;
+    margin-left: 50px;
+    color: rgb(253, 233, 151);
+    font-family: 'SpongeBob Font Condensed', sans-serif; font-family: 'SpongeBob Font Wide', sans-serif;
+    border-radius: 5px;
+    background: linear-gradient(#96e5d4, #52ddd8, #1ab7c5);
+    margin-left: 40px;
+
+}
+
+
+.store-button:hover{
+    cursor: pointer;
+}
+
+
+.store-button-one:hover{
+    cursor: pointer;
+}
+
+
+.store-button-three:hover{
+    cursor: pointer;
+}
+
+.store-h4-cost {
+    margin-top: 3px;
+    margin-right: 0px;
+}
+
+.save-button {
+    margin-top: 15px;
+    height: 30px;
+    border: none;
+    font-size: 18px;
+    line-height: 0%;
+    color: rgb(253, 233, 151);
+    font-family: 'SpongeBob Font Condensed', sans-serif; font-family: 'SpongeBob Font Wide', sans-serif;
+    border-radius: 5px;
+    background: linear-gradient(#96e5d4, #52ddd8, #1ab7c5);
+    padding: 20px 97px;
+    cursor: pointer;
+
+}
+
+.reset-button {
+    margin-top: 15px;
+    height: 30px;
+    border: none;
+    font-size: 18px;
+    line-height: 0%;
+    color: rgb(253, 233, 151);
+    font-family: 'SpongeBob Font Condensed', sans-serif; font-family: 'SpongeBob Font Wide', sans-serif;
+    border-radius: 5px;
+    background: linear-gradient(#96e5d4, #52ddd8, #1ab7c5);
+    padding: 20px 90px;
+    cursor: pointer;
+
+} 
+
+.button-save-reset{
+ margin-left: 50px;
+ 
+    
+} 
